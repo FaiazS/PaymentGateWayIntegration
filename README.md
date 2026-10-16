@@ -1,6 +1,6 @@
 # Payment Gateway Integration | Java & Spring Boot
 
-A focused backend project exploring how a REST API can request hosted payment links from two payment providers: Razorpay and Stripe. Built with Java 17 and Spring Boot, it separates the HTTP entry point from provider-specific integration code and gives reviewers a concrete starting point for discussing payment orchestration, external SDKs, and the safety requirements around money-moving systems.
+A focused backend service project exploring how a REST API can request hosted payment links from two payment providers: Razorpay and Stripe. Built with Java 17 and Spring Boot, it separates the HTTP entry point from provider-specific integration code and gives reviewers a concrete starting point for discussing payment orchestration, external SDKs, and the safety requirements around money-moving systems.
 
 **This is a learning prototype, not a production payment service.** The repository is separate from [ScalerEcommerceProject](https://github.com/FaiazS/ScalerEcommerceProject/tree/master); the code reviewed does not wire this payment API into that product catalog or implement a complete cart-to-order checkout.
 
